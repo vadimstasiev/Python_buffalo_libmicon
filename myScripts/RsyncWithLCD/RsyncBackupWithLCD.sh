@@ -23,8 +23,7 @@ else
                         srv01-fam \
                         srv01-david \
                         vadim \
-                        anatolie \
-                        error_here
+                        anatolie
         do
                 if mountpoint -q "/media/${value}/"; then
                         message_line_1="Rsync running..."
